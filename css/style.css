@@ -45,19 +45,11 @@ position: relative;
 header img {
 width: 300px;
 min-width: 200px;
-max-width: 60vw;
-padding: 60px 0 0 60px;
-filter: drop-shadow(0px 0px 5px #11253d) drop-shadow(0px 0px 5px #11253d) drop-shadow(0px 0px 5px #11253d);
-float:left;
-}
-nav .navbar{
- padding-top: 60px;
-
 }
 
-coontent a:link {
-     text-decoration: none;
-     color: #217539;
+body a {
+	text-decoration: none;
+	color: #217539;
 }
 
 coontent a:visited {
@@ -66,6 +58,8 @@ coontent a:visited {
 
 coontent a:hover {
      text-decoration: underline;
+	 color: #217539;
+
 }
 
 coontent a:active {
@@ -90,6 +84,19 @@ text-indent: -10000px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+
+ul{
+	margin left:20px;
+
+}
+
+
+div.li{
+	text-align: center;
+}
+
 
 footer {
 
