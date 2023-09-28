@@ -70,6 +70,7 @@ coontent a:active {
 .logo, .titlecontainer {
 display: inline-block;
 float: right;
+image: url("logo1.JPG");
 height: 100px;
 margin: 20px;
 }
