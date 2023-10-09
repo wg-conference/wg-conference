@@ -75,6 +75,7 @@ float: right;
 image: url("logo1.JPG");
 height: 100px;
 margin: 20px;
+margin-top: 150px;
 }
 
 .titlecontainer {
@@ -119,9 +120,9 @@ position: relative;
 .footertext {
     /*padding: 50px 0 0 20px;*/
     margin-left: 20px;
+	margin-top: 10px;
     position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 footer img {
