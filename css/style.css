@@ -25,6 +25,8 @@ position: relative;
 .topnav{
     overflow: hidden;
     background-color: #333;
+	font-family:sans-serif;
+	padding:5px;
 }
 
 .topnav a {
