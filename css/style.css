@@ -102,6 +102,11 @@ div.li{
 }
 
 
+th, td{
+	padding:5px;
+}
+
+
 footer {
 
 color: #ffffff;
