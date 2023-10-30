@@ -68,6 +68,10 @@ coontent a:active {
      text-decoration: none;
      color: #217539;
 }
+/*@media screen and (max-width: 480px) {
+    img {
+         width: 400px;
+    }*/
 
 .logo, .titlecontainer {
 display: inline-block;
@@ -133,10 +137,56 @@ position: relative;
     top: 50%;
   transform: translateY(-50%);
 }
+
+@media screen and (max-width:570px){
+footer img {
+height: 60px;
+
+margin-top: 70px;
+margin-bottom: 40px;
+/*padding: 15px 20px 0px 0;*/
+}}
+
+
+@media screen and (min-width:570px) and (max-width:800px){
+footer img {
+height: 80px;
+
+margin-top: 90px;
+margin-bottom: 30px;
+margin-right: 20px;
+/*padding: 15px 20px 0px 0;*/
+
+}}
+@media screen and (min-width:800px) and (max-width:850px){
+footer img {
+height: 90px;
+
+margin-top: 35px;
+margin-bottom: 35px;
+
+/*padding: 15px 20px 0px 0;*/
+
+}}
+
+
+@media screen and (min-width:850px) and (max-width:1000px){
+footer img {
+height: 105px;
+
+margin-top: 27.5px;
+margin-bottom: 27.5px;
+margin-right: 10px;
+/*padding: 15px 20px 0px 0;*/
+
+
+}}
+
+@media screen and (min-width:1000px){
 footer img {
 height: 120px;
 
 margin: 20px;
 /*padding: 15px 20px 0px 0;*/
 
-}
+}}
